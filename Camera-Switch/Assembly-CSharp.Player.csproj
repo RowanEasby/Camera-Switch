@@ -655,6 +655,10 @@
       <Project>{21CA9D65-AA69-DADA-9918-89785EC60DE6}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.Player.csproj">
+      <Project>{8BB054D8-4422-A8A0-67C5-A9260949EA5D}</Project>
+      <Name>Cinemachine.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{4C6AE797-708A-010F-E582-4375477FD182}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
@@ -666,10 +670,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{45D87296-847E-6868-E0D2-88300AC53AFA}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.Player.csproj">
-      <Project>{8BB054D8-4422-A8A0-67C5-A9260949EA5D}</Project>
-      <Name>Cinemachine.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

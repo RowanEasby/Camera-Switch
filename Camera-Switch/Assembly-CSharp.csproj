@@ -759,9 +759,17 @@
       <Project>{51FEA1AA-4034-B271-9A31-A13C06FB809A}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{35F8546E-F2DB-F4D1-A12A-6B699FC038EF}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{D75877CC-D673-59AB-1243-54898313A987}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{5CBC73A7-C935-32D4-7214-C1E5F9C3FB4B}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{B13E4252-CCE2-02F3-2650-51A7A1BDB3A5}</Project>
@@ -782,14 +790,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{874795E9-7C8F-C81A-6094-3F9BB1612263}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{5CBC73A7-C935-32D4-7214-C1E5F9C3FB4B}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{35F8546E-F2DB-F4D1-A12A-6B699FC038EF}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
